@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<!--        action ở đây thể hiện form khi được submit sẽ đc xử lý ở đâu
+            -> ở UL-pattern của servlet -->
+<!--        nma ở đây không để method mặc định đc, vì nó sẽ luôn gọi doGet 
+            mà doGet nó luôn foward tới trang html này
+            -> xử lý ở hàm doPost-->
+
+        <form action="Tinh" method="POST">
+            <label for="dai"> Dài: </label>
+            <input type="text" name="dai"> <br> <br>
+            <label for="rong"> Rộng </label>
+            <input type="text" name="rong"> <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
